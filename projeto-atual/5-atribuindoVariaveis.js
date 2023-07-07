@@ -2,7 +2,7 @@
 console.log("Trabalhando com Atribuição de Variáveis");
 
 
-const idade = 29;
+//const idade = 29;
 let primeiroNome = "Ricardo";
 const sobrenome = "Bugan";
 
@@ -20,3 +20,9 @@ console.log(nomeCompleto);
 
 //não fazer
 //mes = "janeiro"
+
+let idade; //declarando variável
+idade = 26; //declarando valor
+idade = idade+1;
+
+console.log(idade);
