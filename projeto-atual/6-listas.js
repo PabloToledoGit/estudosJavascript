@@ -12,4 +12,4 @@ const listaDeDestinos = new Array(
 
     listaDeDestinos.splice(1,1);
     console.log(listaDeDestinos);
-    
+    console.log(listaDeDestinos[1], listaDeDestinos[0]);
