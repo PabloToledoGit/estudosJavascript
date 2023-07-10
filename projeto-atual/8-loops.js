@@ -6,22 +6,21 @@ console.log("Destinos Possiveis: \n");
 console.log(listaDeDestinos);
 
 const estaAcompanhada = false;
-const passagemComprada = true;
+let passagemComprada = false;
 
 if (idadeComprador >= 18 || estaAcompanhada == true) {
   listaDeDestinos.splice(1, 1);
   console.log("Boa Viagem!!");
+  passagemComprada = true;
 } else {
   console.log("Não é maior de idade, não posso vender \n");
+  passagemComprada = false;
 }
 console.log("Embarque: \n")
 if(idadeComprador == 18 && passagemComprada){
-  console.log("Boa Viagem!!")
+  console.log("Boa Viagem!!");
 
 }else{
-  console.log("Não é possivel embarcar \n")
-
+  console.log("Não é possivel embarcar \n");
 }
-
-
 

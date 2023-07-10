@@ -1,15 +1,10 @@
-console.log('Trabalhando com Listas');
+console.log("Trabalhando com Listas");
 
-const listaDeDestinos = new Array(
+const listaDeDestinos = new Array("são paulo", "rio de janeiro", "salvador");
+listaDeDestinos.push(`Curitiba`); //adicionando um iten na lista
+console.log("Destinos Possiveis:");
+console.log(listaDeDestinos);
 
-    'são paulo',
-    'rio de janeiro',
-    'salvador'
-
-);  listaDeDestinos.push(`Curitiba`); //adicionando um iten na lista
-    console.log("Destinos Possiveis:");
-    console.log(listaDeDestinos);
-
-    listaDeDestinos.splice(1,1);
-    console.log(listaDeDestinos);
-    console.log(listaDeDestinos[1], listaDeDestinos[0]);
+listaDeDestinos.splice(1, 1);
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1], listaDeDestinos[0]);
